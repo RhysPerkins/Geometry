@@ -3,7 +3,7 @@
 
 This library contains classes for the following shapes
 
-- Axis Aligned Bounding Box
+- Axis-Aligned Bounding Box
 - Frustum
 - Oriented Bounding Box
 - Plane
@@ -15,7 +15,7 @@ Collision detection methods for each of the shapes are provided by the following
 
 - CollisionDetection
 
-Here is an example of detecting and solving an intersection between to shapes
+Here is an example of detecting and solving an intersection between two shapes
 
 ```
     Contact c = new Contact();
@@ -28,4 +28,4 @@ Here is an example of detecting and solving an intersection between to shapes
         a.Position += c.nEnter * c.penetration;
 ```
 
-For more information, please visit [rhysperkins.com](www.rhysperkins.com)
+For more information, please visit rhysperkins.com
